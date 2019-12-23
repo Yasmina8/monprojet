@@ -1,0 +1,34 @@
+body{
+    background-image: url(./bg4.jpg)   ;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.c1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+  
+    font-weight: bold;
+   
+  
+}
+.c2{
+    text-align: left;
+   font-size: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+  text-decoration-color: mediumblue;
+    font-weight: bold;
+
+}
+.button4 {
+    padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background : red;
+	color:#fff;
+	width:90px;
+	border-radius:2px;
+	border:none;
+}
+

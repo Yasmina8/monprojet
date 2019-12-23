@@ -1,0 +1,64 @@
+body{
+    background-image: url(./bg3.jpg)   ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.button3 {
+    padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background : red;
+	color:#fff;
+	width:90px;
+	border-radius:2px;
+	border:none;
+}
+
+.c2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    color: grey;
+}
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: rgb(23, 103, 223);
+    background: rgb(23, 103, 223);
+    position: relative;
+}
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select-style:after {
+    top: 50%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+.select-style select:focus {
+    outline: none;
+}
